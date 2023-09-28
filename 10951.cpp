@@ -10,5 +10,8 @@ int main(int argc, char const *argv[])
     while (std::cin >> a >> b)
         sum.push_back(a + b);
 
+    for (int i = 0; i < sum.size(); i++)
+        printf("%d\n", sum[i]);
+
     return 0;
 }
