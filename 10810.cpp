@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 
 int main(int argc, char const *argv[])
 {
@@ -19,5 +20,13 @@ int main(int argc, char const *argv[])
         std::cout << basket[i] << " ";
     }
     
+=======
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    
+
+>>>>>>> 881761acfa3fc62b1c4abc31cf5ac3e331f9ec98
     return 0;
 }
